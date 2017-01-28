@@ -15,8 +15,8 @@ Set these CDN in the `head` tag of your HTML
 <script src="https://rawgit.com/fifiblop/doubleRangeSlider/master/rangeSlider.js"></script>
 ```
 
-The first line will include basic css code to display the range slider.
-The second will include the js to display current value of the range slider.
+The first line will include the basic CSS code to display the range slider.
+The second will include the Javascript to display the current value of the range slider.
 
 ### Range slider
 
@@ -37,7 +37,7 @@ Include this snippet in your HTML for a range slider
 
 ![alt text](ressources/simpleSlider.png "range slider")
 
-This one for a simple slider
+Or you can use this one for a simple slider
 
 ```
 <label for="simpleSlider">Simple slider</label>
