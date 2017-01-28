@@ -1,5 +1,11 @@
 "use strict";
 
+const rangeSlider = document.querySelector('#rangeSlider');
+const simpleSlider = document.querySelector('#simpleSlider');
+
+setSliderValues(rangeSlider, 0, 200, 50, 150);
+setSliderValues(simpleSlider, 0, 200, 100);
+
 /*----------------------------------------------------------*\
 #rangeSlider functions
 \*----------------------------------------------------------*/
