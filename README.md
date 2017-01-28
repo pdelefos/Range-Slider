@@ -4,11 +4,11 @@ A simple range slider element
 
 ## Getting Started
 
-You just have to include the js and the css as CDN
+You just have to include the JS and the CSS as CDN
 
 ### Prerequisites
 
-Set those CDN in the `head` tag of your html
+Set these CDN in the `head` tag of your HTML
 
 ```
 <link rel="stylesheet" type="text/css" href="https://rawgit.com/fifiblop/doubleRangeSlider/master/rangeStyle.css">
@@ -22,7 +22,7 @@ The second will include the js to display current value of the range slider.
 
 ![alt text](ressources/rangeSlider.png "range slider")
 
-Include this snippet in your html for a range slider
+Include this snippet in your HTML for a range slider
 
 ```
 <label for="rangeSlider">Range slider</label>
