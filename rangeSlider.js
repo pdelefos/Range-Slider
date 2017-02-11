@@ -5,6 +5,10 @@ const simpleSlider = document.querySelector('#simpleSlider');
 
 setSliderValues(rangeSlider, 0, 200, 50, 150);
 setSliderValues(simpleSlider, 0, 200, 100);
+rangeSlider.addEventListener('change', function () {
+  const value = getSliderValues(this);
+  console.log(value);
+})
 
 /*----------------------------------------------------------*\
 #rangeSlider functions
@@ -87,7 +91,7 @@ function getSliderValues(slider) {
     let min = sliderInputs[0].value;
     if (nbSliders == 2) {
         let max = sliderInputs[1].value;
-        if (min > max){ var tmp = max; max = min; min = tmp; }
+        if (parseInt(min) > parseInt(max)){ var tmp = max; max = min; min = tmp; }
         return {min: `${min}`, max: `${max}`};
     }
     return {min: `${min}`};
